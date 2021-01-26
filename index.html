@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Tetris</title>
+  
+  <!-- author -->
+  <meta name="twitter:site" content="@melcor76" />
+  <meta name="keywords" content="JavaScript, Tetris">
+  <meta name="author" content="Michael Karén">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  
+  <header class="back">
+    <a href="https://seygorin.github.io/index.html">&#8592; Go back</a>
+  </header>  
+
+  <div class="grid">
+
+      <div class="right-column">
+          <div class="text">
+              <h1>TETRIS</h1>
+              <p>Score: <span id="score">0</span></p>
+              <p>Lines: <span id="lines">0</span></p>
+              <p>Level: <span id="level">0</span></p>
+          </div>
+          <button id="play-btn" onclick="play()" class="play-button">Play</button>
+          <button id="pause-btn" onclick="pause()" class="play-button">Pause</button>
+          
+          <div class="legend">
+            <p>how?</p>
+            <p>&uarr; / q - rotate</p>
+            <p>&larr; &darr; &rarr; - move</p>
+            <p>&lowbar;bar - harddrop</p>
+          </div>
+
+      </div>
+
+      <canvas id="board" class="game-board"></canvas>
+  </div>
+
+  <div class="author">
+    <p>by @melcor76</p>
+  </div>
+
+
+  <script type="text/javascript" src="js/constants.js"></script>
+  <script type="text/javascript" src="js/board.js"></script>
+  <script type="text/javascript" src="js/piece.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
