@@ -2,13 +2,12 @@
   font-family: 'Heebo', sans-serif;
 }
 
-/* .grid {
+.grid {
   display: grid;
-  grid-template-columns: 320px 200px;
   position:absolute;
   left:50%;
   transform: translate(-50%, 0);
-} */
+}
 
 
 .right-column {

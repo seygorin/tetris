@@ -1,8 +1,8 @@
 'use strict';
 
-const COLS = 22;
+const COLS = 21;
 const ROWS = 11;
-const BLOCK_SIZE = 85;
+const BLOCK_SIZE = 80;
 const LINES_PER_LEVEL = 3;
 const COLORS = [
   'none',
